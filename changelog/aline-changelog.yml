@@ -1,0 +1,44 @@
+generated: '2026-07-17'
+method: searched
+source: https://feedback.aline.co/changelog
+scheme: sequential-release-numbers + calendar dates (not semver)
+current_version: Release 796
+entries:
+- version: Release 796
+  date: '2026-07-02'
+  breaking: false
+  highlights: Agentic AI Intake and Workflows - AI-powered request processing with
+    automated risk-based triage.
+- version: Release 786
+  date: '2026-06-18'
+  breaking: false
+  highlights: Streamlined template launching and improved AI response formatting.
+- version: Release 783
+  date: '2026-06-15'
+  breaking: false
+  highlights: Keyboard shortcuts, SSO improvements, configurable member roles.
+- version: Release 782
+  date: '2026-06-14'
+  breaking: false
+  highlights: Data migration tool for bulk metadata imports, drag-and-paste images,
+    Salesforce expansions.
+- version: Release 779
+  date: '2026-06-10'
+  breaking: false
+  highlights: Enhanced menu navigation, custom scrollbars, improved upload progress
+    panel.
+- version: Release 768
+  date: '2026-05-29'
+  breaking: false
+  highlights: AI reasoning explanations, cell/row/column locking, CSV options for
+    reports.
+- version: Release 766
+  date: '2026-05-28'
+  breaking: false
+  highlights: Redlines on redlines - iterative AI editing for negotiations, faster
+    AI models.
+- version: Release 753
+  date: '2026-05-17'
+  breaking: false
+  highlights: New AI Chat beta with planning, parallel document drafting, repository
+    search.

@@ -1,8 +1,29 @@
 aid: aline
 name: Aline
-description: Aline is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aline is a legal AI platform that automates contract lifecycle management (CLM)
+  for in-house legal, legal operations, procurement, finance, and sales/RevOps
+  teams. Its "legal grade AI" drafts and redlines agreements, runs iterative
+  "redlines on redlines" negotiation editing, analyzes and reports across large
+  contract repositories, and includes AlineSign electronic signatures plus
+  agentic AI intake and cross-departmental workflows. Aline syncs documents from
+  Google Drive, SharePoint, Dropbox, and Box, and is a Techstars-backed company.
+  This profile was enriched from Aline's public product surface; Aline publishes
+  no public developer API, so this repo captures its identity, changelog, trust
+  center, and domain-security posture rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/aline/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67b5d38af90e47df033a2b59/69c58b92c6460c25990e524b_OG%20Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,6 +35,15 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Legal
+- LegalTech
+- Legal AI
+- Contract Lifecycle Management
+- CLM
+- Contract Management
+- Electronic Signature
+- Artificial Intelligence
+- Workflow Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,41 @@ maintainers:
 common:
 - type: Website
   url: https://aline.co/
+- type: Documentation
+  url: https://docs.aline.co/en/
+- type: HelpCenter
+  url: https://docs.aline.co/en/
+- type: Support
+  url: https://docs.aline.co/en/
+- type: Blog
+  url: https://aline.co/blog
+- type: Pricing
+  url: https://aline.co/pricing-plans
+- type: SignUp
+  url: https://app.aline.co/signup
+- type: Login
+  url: https://app.aline.co/login
+- type: TermsOfService
+  url: https://aline.co/terms-of-service
+- type: PrivacyPolicy
+  url: https://aline.co/privacy-policy
+- type: ChangeLog
+  url: https://feedback.aline.co/changelog
+- type: ChangeLog
+  name: Aline Changelog (captured)
+  url: changelog/aline-changelog.yml
+- type: TrustCenter
+  url: https://trust.aline.co/
+- type: TrustCenter
+  name: Aline Trust Center (captured)
+  url: security/aline-trust-center.yml
+- type: Compliance
+  name: SOC 2 (Aline Trust Center)
+  url: https://trust.aline.co/
+- type: DomainSecurity
+  url: security/aline-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

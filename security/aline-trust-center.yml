@@ -1,0 +1,38 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trust.aline.co/
+url: https://trust.aline.co/
+provider: Secureframe
+certifications:
+- SOC 2
+control_domains:
+- Change Management
+- Availability & Business Continuity
+- Organizational Management
+- Confidentiality & Data Protection
+- Vulnerability Management
+- Incident Response
+- Risk Assessment
+- Network Security
+- Access Security
+- Physical Security
+- Communications
+subprocessors:
+- {name: OpenAI, purpose: AI/NLP services, region: USA}
+- {name: Anthropic, purpose: Conversational AI, region: USA}
+- {name: Google Gemini, purpose: Cloud/AI services, region: USA}
+- {name: xAI, purpose: Grok AI services, region: USA}
+- {name: Tavily, purpose: Search engine for LLMs, region: USA}
+- {name: Apideck, purpose: Accounting API integrations, region: USA}
+- {name: Cohere, purpose: AI platform/embeddings, region: USA}
+- {name: AWS, purpose: Cloud infrastructure, region: USA}
+- {name: WorkOS, purpose: Authentication/access management, region: USA}
+evidence:
+- source: https://trust.aline.co/
+  keywords:
+  - soc 2
+  - trust center
+  - secureframe
+notes: SOC II report available on request. No ISO 27001/HIPAA/PCI/GDPR certification
+  claims found. Trust center powered by Secureframe.
