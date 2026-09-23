@@ -1,0 +1,34 @@
+# Front Door AI Index — aline — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: aline
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: aline.co
+  final_host: www.aline.co
+  ownership: own
+  owner: aline
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 22.84
+  words: 1051
+  tiers:
+    agentic: 3
+    core: 16
+    model: 5
+  ambiguous: 2
+  top_terms:
+    AI: 16
+    agent: 2
+    AI agent: 1
+    Anthropic: 1
+    ChatGPT: 1
+    Claude: 1
+    Gemini: 1
+    OpenAI: 1
+    agentic: 1
+    prompts: 1
