@@ -53,7 +53,7 @@ tags:
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 tags_raw:
 - Company
 - Legal
@@ -65,6 +65,7 @@ tags_raw:
 - Electronic Signature
 - Artificial Intelligence
 - Workflow Automation
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
