@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.aline.co/pricing-plans
+sources:
+- https://www.aline.co/pricing-plans
+- https://aline.co/pricing-plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Team Plan
+published: true
+note: Seat-based SaaS CLM pricing; Team plan priced per full user/month with support-user pricing, Enterprise
+  is quote-based. No API-specific pricing stated.
+plan_count: 2
+currency: USD
+plans:
+- name: Team Plan
+  price_text: $ 200 /full user / mo
+  price: 200
+  currency: USD
+  period: month
+  unit: full user
+  included_quota: AI Reports, AI Workflows & Unlimited Signing, Advanced Aline AI, up to 20 hours of onboarding;
+    also "$ 50 /support user / mo" and "$ 24,00 annually"
+- name: Enterprise Plan
+  price_text: Contact Us for a customised quotation
+  period: none
+  included_quota: Everything in Team, Integrations, SSO and Directory Sync, Bespoke Onboarding; "$ 0 /support
+    user / mo"
