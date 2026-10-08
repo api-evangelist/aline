@@ -35,3 +35,26 @@ plans:
   period: none
   included_quota: Everything in Team, Integrations, SSO and Directory Sync, Bespoke Onboarding; "$ 0 /support
     user / mo"
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  units:
+  - seat
+  plans:
+  - name: Team Plan
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Enterprise Plan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
